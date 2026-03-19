@@ -1,0 +1,17 @@
+# robots.txt template
+#
+# Notes:
+# - Use "Disallow" for paths you do not want crawled.
+# - Provide a correct sitemap URL.
+# - Make sure the file is valid (syntax errors can prevent correct crawling).
+#
+# Example (allow everything):
+User-agent: *
+Disallow:
+
+# Example (block downloads):
+# User-agent: *
+# Disallow: /downloads/
+
+Sitemap: https://example.com/sitemap.xml
+

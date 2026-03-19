@@ -1,0 +1,28 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "YOUR_ARTICLE_TITLE",
+  "description": "YOUR_UNIQUE_PAGE_DESCRIPTION",
+  "datePublished": "2026-03-19",
+  "dateModified": "2026-03-19",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/YOUR_PAGE_SLUG/"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "YOUR_AUTHOR_NAME"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "YOUR_SITE_NAME",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/path/to/logo.png"
+    }
+  },
+  "image": [
+    "https://example.com/path/to/hero-image.jpg"
+  ]
+}
+
